@@ -4,3 +4,4 @@ core = 7.x
 package = "Base"
 project = "Package base"
 dependencies[] = environments_custom
+dependencies[] = features
