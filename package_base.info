@@ -3,3 +3,4 @@ description = Package base modules
 core = 7.x
 package = "Base"
 project = "Package base"
+dependencies[] = environment_custom
