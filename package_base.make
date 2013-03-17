@@ -14,3 +14,10 @@ projects[features][patch][] = "patches/features/features_rc3_empty_drupal_codest
 projects[features][patch][] = "patches/features/features_rc3_field_alter_hooks.patch"
 projects[features][patch][] = "patches/features/features_permission_non_exited_module.patch"
 
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.0"
+projects[entityreference][patch][] = "patches/entityreference/er_rc3_selection_handler_views.patch"
+;http://drupal.org/node/1706664
+projects[entityreference][patch][] = "http://drupal.org/files/entityreference-fixing_regresion-1625188-4.patch"
+;http://drupal.org/node/1665818
+projects[entityreference][patch][] = "patches/entityreference/er_rc3_remove_extra_checkplain_for_selectlist.patch"
